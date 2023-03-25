@@ -32,7 +32,7 @@ class ExportSomeData(Operator, ExportHelper):
 	voxel_detail: IntProperty(
 		name="Voxel Detail",
 		description="Voxel Detail",
-		default=32,
+		default=128,
 	)
 	use_default_palette: BoolProperty(
 		name="Use default palette",
