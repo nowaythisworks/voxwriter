@@ -159,8 +159,7 @@ def nearest_color_index(color, palette):
 	color = nearest_color(color, palette)
 	return palette.index(color)
 
-def voxelize(obj, file_path, vox_detail=256, use_default_palette=False):
-	vox_detail = 256
+def voxelize(obj, file_path, vox_detail=64, use_default_palette=False):
 	global image_tuples
 	image_tuples = {}
 	last_time = time.time()
